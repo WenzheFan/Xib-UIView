@@ -15,6 +15,8 @@
 		18172457205BBFF600970E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18172456205BBFF600970E6A /* main.m */; };
 		18172461205BBFF600970E6A /* Xib__UIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18172460205BBFF600970E6A /* Xib__UIViewTests.m */; };
 		1817246C205BBFF600970E6A /* Xib__UIViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817246B205BBFF600970E6A /* Xib__UIViewUITests.m */; };
+		18172480205BC33A00970E6A /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817247F205BC33A00970E6A /* MyView.m */; };
+		18172482205BC34B00970E6A /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18172481205BC34B00970E6A /* MyView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		18172467205BBFF600970E6A /* Xib创建UIViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xib创建UIViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817246B205BBFF600970E6A /* Xib__UIViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xib__UIViewUITests.m; sourceTree = "<group>"; };
 		1817246D205BBFF600970E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1817247E205BC33900970E6A /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		1817247F205BC33A00970E6A /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		18172481205BC34B00970E6A /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				18172448205BBFF600970E6A /* AppDelegate.m */,
 				1817244A205BBFF600970E6A /* ViewController.h */,
 				1817244B205BBFF600970E6A /* ViewController.m */,
+				1817247E205BC33900970E6A /* MyView.h */,
+				1817247F205BC33A00970E6A /* MyView.m */,
+				18172481205BC34B00970E6A /* MyView.xib */,
 				1817244D205BBFF600970E6A /* Main.storyboard */,
 				18172450205BBFF600970E6A /* Assets.xcassets */,
 				18172452205BBFF600970E6A /* LaunchScreen.storyboard */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18172482205BC34B00970E6A /* MyView.xib in Resources */,
 				18172454205BBFF600970E6A /* LaunchScreen.storyboard in Resources */,
 				18172451205BBFF600970E6A /* Assets.xcassets in Resources */,
 				1817244F205BBFF600970E6A /* Main.storyboard in Resources */,
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18172480205BC33A00970E6A /* MyView.m in Sources */,
 				1817244C205BBFF600970E6A /* ViewController.m in Sources */,
 				18172457205BBFF600970E6A /* main.m in Sources */,
 				18172449205BBFF600970E6A /* AppDelegate.m in Sources */,
