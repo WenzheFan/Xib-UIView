@@ -22,6 +22,16 @@
   
     
     [self.view addSubview:text];
+    NSLog(@"asdasdasdsad");
+    [self.view addSubview:text];
+    NSLog(@"asdasdasdsad"); [self.view addSubview:text];
+    NSLog(@"asdasdasdsad");
+    [self.view addSubview:text];
+    NSLog(@"asdasdasdsad");
+    [self.view addSubview:text];
+    NSLog(@"asdasdasdsad");
+    [self.view addSubview:text];
+    NSLog(@"asdasdasdsad");
 }
 
 
